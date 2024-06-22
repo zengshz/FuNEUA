@@ -1,0 +1,18 @@
+data:
+  lr: 1.0e-3
+  epochs: 100
+  batch_size: 100
+  user_num: 500
+  x_end: 0.5
+  y_end: 1
+  min_cov: 1
+  max_cov: 1.5
+  miu: 40
+  sigma: 10
+  data_size:
+    train: 100000
+    valid: 1000
+    test: 100
+  user_size: 4
+  n_heads: 8
+  embed_dim: 128
